@@ -1,5 +1,7 @@
 package com.example.scalaproject
 
 object Main extends App {
-  override def main(args: Array[String]) = println("Hi!")
+  println("enter command:")
+  val command = scala.io.StdIn.readLine
+  println("you entered:" + command)
 }
